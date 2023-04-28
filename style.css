@@ -1,20 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: solid; */
-    font-family: 'Roboto', sans-serif;
 }
 
 body{
     background-image: url(img/playa.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cabecera{
     margin: 20px 50px;
-    /* padding: 0 100px; */
     display: flex;
     justify-content: space-between;
 }
@@ -22,6 +19,7 @@ body{
 .logo{
     font-size: 40px;
     color: #888B85;
+    font-weight: 700;
 }
 
 .navbar{
@@ -35,7 +33,6 @@ body{
 
 .navbar > a{
     text-decoration: none;
-    /* color: #64A9D6; */
     color: #888B85;
 }
 
@@ -43,4 +40,55 @@ body{
     padding: 5px 20px;
     border: solid 2px;
 }
+
+.medio{
+    margin: 15% 0 0 15%;
+}
+
+.tituloMedio{
+    font-size: 80px;
+    color: white;
+}
+
+.parrafoMedio{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #64A9D6;
+}
+
+.linea{
+    width: 4%;
+    margin-top: 5px;
+    border-color: #64A9D6;
+}
+
+footer{
+    margin-top: 15%;
+    color: #64A9D6;
+    text-align: center;
+}
+
+.titulofooter{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.subfooter{
+    letter-spacing: 1px;
+}
+
+.linea2{
+    width: 4%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 48%;
+    border-color: #64A9D6;
+}
+
+.parrafooter{
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
 

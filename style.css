@@ -1,4 +1,46 @@
 *{
     margin: 0;
     padding: 0;
+    /* border: solid; */
+    font-family: 'Roboto', sans-serif;
 }
+
+body{
+    background-image: url(img/playa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.cabecera{
+    margin: 20px 50px;
+    /* padding: 0 100px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 40px;
+    color: #888B85;
+}
+
+.navbar{
+    
+    width:30%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar > a{
+    text-decoration: none;
+    /* color: #64A9D6; */
+    color: #888B85;
+}
+
+.subscribe{
+    padding: 5px 20px;
+    border: solid 2px;
+}
+
